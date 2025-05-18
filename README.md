@@ -2,5 +2,5 @@
 Artem Khoruzhij
 Homework GitLab
 
-![alt text](https://github.com/maninblack802/repo-002/origin/main/img/image1.png)
-![alt text](https://github.com/maninblack802/repo-002/origin/main/img/image2.png)
+![image1](https://github.com/maninblack802/repo-002/blob/main/img/image1.png)
+![image2](https://github.com/maninblack802/repo-002/blob/main/img/image2.png)
