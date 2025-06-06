@@ -4,16 +4,19 @@ stages:
 
 test:
   stage: test
-  image: golang:latest
-  script: 
+  image: golang:1.17
+  script:
    - echo "Start test"
+   - go test .
   tags:
    - netology
+
 
 build:
   stage: build
   image: docker:latest
   script:
-   - docker build -f ./Dockerfile .
+   - echo "Start build"
+   - docker build .
   tags:
    - netology
