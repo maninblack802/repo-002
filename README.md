@@ -4,6 +4,13 @@
 
 `В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте`
 
+![image](https://github.com/maninblack802/repo-002/blob/main/img/image.png)
+
+
+### Задание 2
+
+`В качестве ответа в шаблон с решением добавьте скриншоты с успешно собранными сборками`
+
 stages:
   - test
   - build
@@ -31,11 +38,6 @@ build:
   - docker build .
   tags:
   - netology
-
-
-### Задание 2
-
-`В качестве ответа в шаблон с решением добавьте скриншоты с успешно собранными сборками`
 
 ![image1](https://github.com/maninblack802/repo-002/blob/main/img/image1.png)
 ![image2](https://github.com/maninblack802/repo-002/blob/main/img/image2.png)
