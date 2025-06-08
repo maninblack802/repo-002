@@ -6,17 +6,22 @@ test:
   stage: test
   image: golang:1.17
   script:
-   - echo "Start test"
-   - go test .
+  - echo "Start test"
+  - go test .
   tags:
-   - netology
-
+  - netology
 
 build:
   stage: build
-  image: docker:latest
+  image: docker:24.0.2
+  services:
+  - name: docker:dind
+    alias: docker
+  variables:
+    DOCKER_HOST: "tcp://docker:2375"
+    DOCKER_TLS_CERTDIR: ""
   script:
-   - echo "Start build"
-   - docker build .
+  - echo "Start build"
+  - docker build .
   tags:
-   - netology
+  - netology
